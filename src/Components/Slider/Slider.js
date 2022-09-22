@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import NextBtn from "./Images/next.svg";
 import PrevBtn from "./Images/prev.svg";
 import "./Slider.scss";

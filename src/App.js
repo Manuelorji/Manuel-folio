@@ -22,8 +22,8 @@ function App() {
 
   // const { scrollYProgress } = useViewportScroll();
   // const scale = useTransform(scrollYProgress, [0, 1], [0.2, 2]);
-  {
-    /* <motion.div style={{ scale }}>
+
+  /* <motion.div style={{ scale }}>
         <motion.div
           style={{
             scaleY: scrollYProgress,
@@ -31,7 +31,6 @@ function App() {
         />
        
       </motion.div> */
-  }
 
   return (
     <div className="App">
