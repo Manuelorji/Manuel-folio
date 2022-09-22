@@ -1,0 +1,59 @@
+nav {
+  user-select: none;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  left: 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  font-size: 18px;
+  font-weight: 500;
+  z-index: 100000;
+  box-sizing: border-box;
+  background: transparent;
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+  -moz-backdrop-filter: blur(100px);
+  width: 98%;
+  box-shadow: 0 1px 6px 1px rgb(206, 197, 197);
+
+  .logo {
+    transition: all 0.2s ease-in-out;
+    h3 {
+      font-family: "Source Code Pro", lora, monospace;
+      color: rgb(223, 215, 215);
+    }
+  }
+
+  .logo:hover {
+    transform: rotateY(20deg);
+  }
+  .nav-links {
+    display: flex;
+    display: none;
+    gap: 50px;
+    cursor: pointer;
+
+    .nav-link:hover {
+      transition: all 0.1s ease-in-out;
+      border-bottom: 2px dashed rgb(63, 59, 59);
+    }
+  }
+
+  .hamburger-menu {
+    cursor: pointer;
+
+    .close-menu {
+      display: none;
+    }
+  }
+}
+
+.active {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+}
