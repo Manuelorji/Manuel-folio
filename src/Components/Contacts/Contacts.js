@@ -55,15 +55,13 @@ const Contacts = () => {
             </div>
           </a>
 
-          <a href="mailto:nuelorji@gmail.com">
+          <a
+            href="mailto:nuelorji@gmail.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <div className="connection">
-              <img
-                src={MailImage}
-                alt={"mail"}
-                title="mail"
-                rel="noopener noreferrer"
-                target="_blank"
-              />
+              <img src={MailImage} alt={"mail"} title="mail" />
             </div>
           </a>
           <a
@@ -78,9 +76,15 @@ const Contacts = () => {
         </div>
       </div>
       <div className="my-resume-ctn" data-aos="fade-left">
-        <div className="my-resume">
-          <img src={Resume} alt={"My Resume"} title="My Resume" />
-        </div>
+        <a
+          href="https://docs.google.com/document/d/1OB2hS5FvaxkakaC3ae5EtzmC-z84T4hz/edit"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <div className="my-resume">
+            <img src={Resume} alt={"My Resume"} title="My Resume" />
+          </div>
+        </a>
         <span>My Resume</span>
       </div>
     </section>
