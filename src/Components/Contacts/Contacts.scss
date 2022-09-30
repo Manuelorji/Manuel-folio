@@ -45,6 +45,8 @@
 
     .lets-chat {
       display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
       gap: 50px;
       user-select: none;
 
@@ -113,11 +115,78 @@
         border-radius: 50%;
         width: 50px;
         height: 50px;
-        border-radius: 50%;
       }
     }
     span {
       font-size: 13px;
+    }
+  }
+}
+
+@media screen and (max-width: 449px) {
+  // section {
+  //   h1 {
+  //     font-size: 15px;
+  //   }
+  // }
+  .contacts {
+    gap: 20px;
+
+    .lets-chat {
+      padding-top: 20px;
+      .connection {
+        width: 15px;
+        height: 15px;
+        padding: 5px;
+        border-radius: 5px;
+      }
+      img {
+        width: 15px;
+        height: 15px;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .my-resume-ctn {
+    margin: 20px 0;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 760px) {
+  section {
+    h1 {
+      font-size: 18px;
+    }
+
+    .contacts {
+      gap: 20px;
+
+      .lets-chat-text {
+        font-size: 10px;
+
+        img {
+          width: 200px;
+          border-radius: 50%;
+          box-shadow: 0px 1px 5px 2px rgb(212, 208, 208);
+        }
+      }
+
+      .lets-chat {
+        padding-top: 20px;
+        .connection {
+          width: 35px;
+          height: 35px;
+          img {
+            width: 40px;
+            height: 35px;
+          }
+        }
+      }
+    }
+
+    .my-resume-ctn {
+      margin: 70px 0;
     }
   }
 }
