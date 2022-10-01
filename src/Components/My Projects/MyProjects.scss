@@ -18,3 +18,9 @@
     -webkit-text-fill-color: transparent;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .my-projects {
+    height: fit-content;
+  }
+}

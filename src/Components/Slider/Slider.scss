@@ -16,3 +16,19 @@
     padding: 5px 0 0 0;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .slider {
+    .cards {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      width: 100vw;
+      // flex-direction: column;
+    }
+
+    .cards-slider-btns {
+      display: none;
+    }
+  }
+}

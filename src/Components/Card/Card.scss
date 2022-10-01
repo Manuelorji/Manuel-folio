@@ -8,7 +8,7 @@
   align-items: center;
   gap: 15px;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   box-shadow: 0px 1px 5px 2px rgb(212, 208, 208);
   cursor: pointer;
@@ -73,72 +73,17 @@
   }
 }
 
-@media screen and (min-width: 918px) and (max-width: 1132px) {
+@media screen and (max-width: 1200px) {
   .card {
-    width: 42vw;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img {
-      width: 40vw;
-    }
-  }
-}
-
-@media screen and (min-width: 765px) and (max-width: 917px) {
-  .card {
-    width: 40vw;
-
-    img {
-      width: 38vw;
-    }
-  }
-}
-
-@media screen and (min-width: 670px) and (max-width: 764px) {
-  .card {
-    width: 38vw;
-
-    img {
-      width: 36vw;
-    }
-  }
-}
-
-@media screen and (min-width: 618px) and (max-width: 669px) {
-  .card {
-    width: 37vw;
-
-    img {
-      width: 35vw;
-    }
-  }
-}
-
-@media screen and (min-width: 542px) and (max-width: 617px) {
-  .card {
-    width: 84vw;
-
-    img {
-      width: 82vw;
-    }
-  }
-}
-
-@media screen and (min-width: 482px) and (max-width: 541px) {
-  .card {
-    width: 81vw;
-
-    img {
-      width: 79vw;
-    }
-  }
-}
-
-@media screen and (max-width: 481px) {
-  .card {
-    width: 78vw;
-
-    img {
-      width: 74vw;
+      width: 100px;
+      height: 60px;
     }
   }
 }
