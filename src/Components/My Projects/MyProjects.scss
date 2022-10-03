@@ -1,9 +1,11 @@
 .my-projects {
   height: 65vh;
-  padding: 40px;
+  padding: 30px;
 
   h1 {
     // font-size: 45px;
+    padding-left: 10px;
+
     padding-bottom: 20px;
     background: linear-gradient(
       to right,
@@ -16,5 +18,11 @@
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .my-projects {
+    height: fit-content;
   }
 }
