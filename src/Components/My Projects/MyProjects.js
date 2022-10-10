@@ -29,6 +29,12 @@ const MyProjects = () => {
     {
       image: FigmaWebProject,
       details: "I developed a Website from a figma design",
+      url: "https://z-logistics.netlify.app",
+    },
+    {
+      image: Todo,
+      details: "Todo List",
+      url: "https://manuel-todo-react.netlify.app/",
     },
     {
       image: CustomCountDownTimer,
