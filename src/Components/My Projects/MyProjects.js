@@ -4,6 +4,8 @@ import VideoPlayer from "./Images/video player.png";
 import CustomCountDownTimer from "./Images/custom countdown timer.png";
 import JokeTeller from "./Images/joke teller.png";
 import FigmaWebProject from "./Images/website dev from figma.png";
+import Todo from "./Images/todo.png";
+import QuoteGen from "./Images/quote gen.png";
 
 import Card from "../Card/Card";
 import Slider from "../Slider/Slider";
@@ -40,6 +42,11 @@ const MyProjects = () => {
       image: CustomCountDownTimer,
       details: "Custom countdown timer Project",
       url: "https://manuelorji.github.io/Custom-countdown-project/",
+    },
+    {
+      image: QuoteGen,
+      details: "Quote Generator",
+      url: "https://manuelorji.github.io/quotes-gen/",
     },
     {
       image: JokeTeller,
