@@ -6,6 +6,7 @@ import JokeTeller from "./Images/joke teller.png";
 import FigmaWebProject from "./Images/website dev from figma.png";
 import Todo from "./Images/todo.png";
 import QuoteGen from "./Images/quote gen.png";
+import DragNDrop from "./Images/dnd.png";
 
 import Card from "../Card/Card";
 import Slider from "../Slider/Slider";
@@ -32,6 +33,11 @@ const MyProjects = () => {
       image: FigmaWebProject,
       details: "I developed a Website from a figma design",
       url: "https://z-logistics.netlify.app",
+    },
+    {
+      image: DragNDrop,
+      details: "Drag and Drop",
+      url: "https://manuelorji.github.io/drag-n-drop-vanilla-js/",
     },
     {
       image: Todo,
