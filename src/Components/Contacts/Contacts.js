@@ -77,7 +77,7 @@ const Contacts = () => {
       </div>
       <div className="my-resume-ctn" data-aos="fade-left">
         <a
-          href="https://docs.google.com/document/d/1OB2hS5FvaxkakaC3ae5EtzmC-z84T4hz/edit"
+          href="https://drive.google.com/uc?export=download&id=1J1T3dqFK8ENPzs1QHL-_N4fvf3B54Jwl"
           rel="noopener noreferrer"
           target="_blank"
         >
