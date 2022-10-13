@@ -7,6 +7,9 @@ import FigmaWebProject from "./Images/website dev from figma.png";
 import Todo from "./Images/todo.png";
 import QuoteGen from "./Images/quote gen.png";
 import DragNDrop from "./Images/dnd.png";
+import RoboApp from "./Images/roboapp.png";
+import LightNDarkMode from "./Images/LightNDarkMode.png";
+import FormValidator from "./Images/Form Validator.png";
 
 import Card from "../Card/Card";
 import Slider from "../Slider/Slider";
@@ -31,7 +34,8 @@ const MyProjects = () => {
     },
     {
       image: FigmaWebProject,
-      details: "I developed a Website from a figma design",
+      details:
+        "I developed a Logistics company’s website from a UI design from figma",
       url: "https://z-logistics.netlify.app",
     },
     {
@@ -43,6 +47,21 @@ const MyProjects = () => {
       image: Todo,
       details: "Todo List",
       url: "https://manuel-todo-react.netlify.app/",
+    },
+    {
+      image: FormValidator,
+      details: "Form Validator",
+      url: "https://manuelorji.github.io/Form-validator-Project/",
+    },
+    {
+      image: RoboApp,
+      details: "RoboApp",
+      url: "https://robooapp.netlify.app/",
+    },
+    {
+      image: LightNDarkMode,
+      details: "A website with Dark and Light mode",
+      url: "https://manuelorji.github.io/light-and-dark-mode-project/",
     },
     {
       image: CustomCountDownTimer,
