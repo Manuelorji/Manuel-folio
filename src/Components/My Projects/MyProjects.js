@@ -42,8 +42,7 @@ const MyProjects = () => {
     },
     {
       image: FigmaWebProject,
-      details:
-        "I developed a Logistics company’s website from a UI design from figma",
+      details: "Logistics company’s Landing Page (UI design from figma)",
       url: "https://z-logistics.netlify.app",
     },
     {
@@ -68,7 +67,7 @@ const MyProjects = () => {
     },
     {
       image: LightNDarkMode,
-      details: "A website with Dark and Light mode",
+      details: "Dark and Light mode Website",
       url: "https://manuelorji.github.io/light-and-dark-mode-project/",
     },
     {
