@@ -42,7 +42,7 @@ const MyProjects = () => {
     },
     {
       image: FigmaWebProject,
-      details: "Logistics company’s Landing Page (UI design from figma)",
+      details: "Logistics company’s Landing Page",
       url: "https://z-logistics.netlify.app",
     },
     {
