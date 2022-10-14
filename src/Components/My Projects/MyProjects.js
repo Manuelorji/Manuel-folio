@@ -10,6 +10,9 @@ import DragNDrop from "./Images/dnd.png";
 import RoboApp from "./Images/roboapp.png";
 import LightNDarkMode from "./Images/LightNDarkMode.png";
 import FormValidator from "./Images/Form Validator.png";
+import BookKeeper from "./Images/BookKeeper.png";
+import BackgroundGen from "./Images/BackgroundGen.png";
+import Calc from "./Images/calculator.png";
 
 import Card from "../Card/Card";
 import Slider from "../Slider/Slider";
@@ -21,6 +24,11 @@ const MyProjects = () => {
       image: InfiniteScroll,
       details: "Infinite scroll Project",
       url: "https://manuelorji.github.io/infinite-scroll-project/",
+    },
+    {
+      image: Calc,
+      details: "Calculator",
+      url: "https://manuelorji-calc.netlify.app/",
     },
     {
       image: MusicPlayer,
@@ -72,6 +80,16 @@ const MyProjects = () => {
       image: QuoteGen,
       details: "Quote Generator",
       url: "https://manuelorji.github.io/quotes-gen/",
+    },
+    {
+      image: BackgroundGen,
+      details: "Background Generator",
+      url: "https://manuelorji.github.io/background-generator/",
+    },
+    {
+      image: BookKeeper,
+      details: "Book keeper",
+      url: "https://manuelorji.github.io/Book-keeper-Project/",
     },
     {
       image: JokeTeller,
