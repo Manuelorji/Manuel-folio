@@ -28,7 +28,7 @@ export default function Slider({ children, cardData }) {
   //slide
   const slide = (direction) => {
     if (direction === "right") {
-      if (currentIndex !== cardData.length / 3 + 8) {
+      if (currentIndex !== cardData.length / 3 + 9) {
         currentIndex++;
         prevBtn.current.style.opacity = "1";
       } else {
