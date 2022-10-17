@@ -161,3 +161,24 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+//  mobile responsiveness
+
+@media screen and (max-width: 760px) {
+  .hero {
+    img {
+      width: 250px;
+      height: 250px;
+    }
+
+    .hero-wave {
+      width: 120%;
+    }
+  }
+
+  // loader
+  .loader {
+    width: 150px;
+    height: 150px;
+  }
+}

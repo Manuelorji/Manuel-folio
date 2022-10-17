@@ -73,7 +73,7 @@
         display: flex;
         gap: 15px;
         align-items: center;
-        text-align: justify;
+        text-align: left;
         flex-direction: column;
         padding: 20px;
         border-radius: 10px;
@@ -204,6 +204,21 @@
 
   .my-profile {
     padding: 10px;
+
+    .profile-skills {
+      padding: 20px;
+
+      .skills {
+        .skill {
+          width: 20%;
+
+          img {
+            width: 80%;
+            height: 50%;
+          }
+        }
+      }
+    }
 
     .my-profile-intro {
       .dummy-div {

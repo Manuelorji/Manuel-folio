@@ -21,9 +21,16 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 790px) and (max-width: 1200px) {
   .my-projects {
     height: fit-content;
-    padding: 10px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width: 789px) {
+  .my-projects {
+    height: fit-content;
+    padding: 20px;
   }
 }
